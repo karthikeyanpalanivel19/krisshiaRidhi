@@ -1,47 +1,73 @@
 .title {
-    color:greenyellow;
-    font-family: 'Merienda', cursive;
-    font-family: 'Pathway Extreme', sans-serif;
+    color:white;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Gill Sans MT', sans-serif; */
     display: inline-block;
+    
+    
 }
 
-.images{
+.paraGraph{
+
+    color: beige;
+}
+/* .date{
+    color:aliceblue;
+    font-family: 'Merienda', cursive;
+} */
+
+
+/* .images{
     
     width: auto;
     height: 200px;
-    border : 100%
+    border : 100% 
+} */
 
-     
-}
 
-.whatToBring,.para,.time,.loc{
-
-    color:white;
-
-}
 
 .bodyTag {
     
-    background: linear-gradient(300deg,#00bfff 0%, #ff4c68 35%, #ef8172 100%);
+    background: linear-gradient(300deg,#00bfff 0%, #ff4c68 35%, #f0b4ac 100%);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
-    
+    /* background-image: url('./background4.jpg'); */
     margin: auto;
     padding: 5%;
-
+    text-align: center;
+    /* background-size: cover; */
+    
 }
 
 @keyframes gradient-animation {
 
     0% {
+
         background-position: 0% 50%;
     }
     50% {
+
         background-position: 100% 50%;
 
     }
     100% {
         background-position: 0% 50%;
-    }
+    } 
     
 }
+
+.whatToBring,.para,.time,.loc,p{
+
+    color:beige;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.list,h3{
+    text-align: center;
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+}
+
+
